@@ -1,1 +1,11 @@
 
+# Node.js
+node_modules/
+.env
+
+# macOS
+.DS_Store
+
+# Build output
+frontend/build/
+backend/dist/
