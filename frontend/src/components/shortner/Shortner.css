@@ -1,0 +1,48 @@
+.shortner
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+label
+{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+input[type="text"]
+{
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+button[type="submit"]
+{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #070808;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.result
+{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
